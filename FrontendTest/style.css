@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 16, 2015, 4:45:32 PM
+    Author     : Samsung
+*/
+div{
+    box-sizing: border-box;
+}
+*{
+    margin: 0 auto;
+}
+body{
+    margin: 0px;
+    background: url(images/bg.jpg) left top repeat;
+}
+h1,h2,h3,h4{
+    color: #ff6900;
+}
+#menu,.slider-wrapper,#intro,#news,#partner{
+    border-radius: 5px;
+}
+
+#wrapper{
+    
+    width: 980px;
+    height: 1150px;
+    position: relative;
+    margin: 0px auto;
+}
+
+#header{
+    height: 105px;
+    
+    padding: 20px 0px;
+    
+}
+
+#header #logo{
+    width: 270px;
+    height: 65px;
+    background: url(images/Homepage.png) left top no-repeat ;
+    float: left;
+    
+}
+
+#header .search{
+    height: 28px;
+    width: 290px;
+    background: red;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+
+.search .box-search{
+    
+}
+#menu{
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 15px 50px;
+    background: -moz-linear-gradient(#ffcc00, #ff8a00);
+    border-top:  1px solid #FF8A00;
+    
+}
+
+.slider-wrapper{
+    margin-bottom: 20px;
+}
+
+#intro{
+    height: 150px;
+    padding: 23px 10px;
+    background: #dfdfdf;
+    margin-bottom: 20px;
+    
+}
+
+.info{
+    font: 9pt/21px Arial;
+}
+
+#intro .info{
+    float: left;
+    width: 690px;
+}
+
+#intro .info h1{
+    margin-bottom: 20px;
+}
+
+#news-partner{
+    height: 280px;
+    
+    margin-bottom: 20px;
+    
+}
+
+#news-partner #news{
+    width: 480px;
+    height: 280px;
+    float: left;
+    margin-right: 20px;
+    background: #dfdfdf;
+    margin-left: 0px;
+}
+
+#news-partner #partner{
+    width: 480px;
+    height: 280px;
+    margin-right: 0px;
+    background: #dfdfdf;
+}
+
+#footer{
+    height: 180px;
+    padding: 20px 10px 0px;
+    background: #dfdfdf;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
